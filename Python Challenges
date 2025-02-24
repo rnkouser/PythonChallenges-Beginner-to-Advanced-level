@@ -1,1 +1,65 @@
+# Challenge - 1
 
+# A. Declare variables for the following types: int, float, bool, string, list.
+# B. Print out the variables and their types at the terminal.
+
+year = 2023 # type int
+price = 10.8 # type float
+sold = False # type bool
+symbol = 'BTC' # type str
+products = ['Smartphone', 'Headphones', 'Smartwatch']  # type list
+
+print(type(year), year)
+print(type(price), price)
+print(type(sold), sold)
+print(type(symbol), symbol)
+print(type(products), products)
+
+#----------------------------------------------------------#
+
+# Challenge - 2
+
+Change this script so that it follows the Python naming and style conventions described in PEP8.
+my_name = 'Rahila'
+value = 100
+
+
+# This is
+# an example of a multiline
+# comment in Python.
+
+
+my_str = 'Hello'
+print(my_str)
+
+
+#----------------------------------------------------------#
+
+# Challenge - 3
+
+# This script contains some syntax errors.
+# Modify the script so that it runs without any errors.
+
+best_friend = 'Anne"
+print('My best friend is ', best_friend)
+
+age = 18
+print(age = 10)
+
+a, 4b = '10', '20'
+print(a + 4b)
+
+print('To comment a line of code you # at the beginning of the line.'#)
+
+# Solution:
+
+best_friend = 'Anne'
+print('My best friend is ', best_friend)
+
+age = 18
+print(age == 10)
+
+a, b = '10', '20'
+print(a + b)
+
+print('To comment a line of code you # at the beginning of the line.')

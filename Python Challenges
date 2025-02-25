@@ -749,3 +749,13 @@ words_and_length = [(w, len(w)) for w in words]
 print(words_and_length)
 
 #----------------------------------------------------------#
+
+MORE CHALLENGES COMING SOON ON : 
+
+# SETS AND dICTIONARIES
+# FUNCTIONS
+# WORKING WITH TEXT FILES
+# WORKING WITH CSV FILES
+# WORKING WITH EXCEL FILES
+
+# AND MANY MORE !!! 

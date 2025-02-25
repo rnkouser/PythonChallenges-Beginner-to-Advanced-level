@@ -1,3 +1,4 @@
+# Python Basics:
 # Challenge - 1
 
 # A. Declare variables for the following types: int, float, bool, string, list.
@@ -20,6 +21,20 @@ print(type(products), products)
 # Challenge - 2
 
 Change this script so that it follows the Python naming and style conventions described in PEP8.
+myName = Rahila
+value=100
+
+"""
+This is 
+an example of a multiline
+comment in Python.
+"""
+
+str = 'Hello'
+print(str)
+
+# Solution:
+
 my_name = 'Rahila'
 value = 100
 
@@ -63,3 +78,82 @@ a, b = '10', '20'
 print(a + b)
 
 print('To comment a line of code you # at the beginning of the line.')
+
+#----------------------------------------------------------#
+
+# Challenge - 4
+
+# Create a new Python script that uses the following operators: =, ==, >=, *, **, /, //, %, +=, *=
+
+a, b = 10, 20
+print(a == b)       # => False
+print(a >= 100)     # => False
+print(2 * 2)        # => 4
+print(2 ** 128)     # => 340282366920938463463374607431768211456
+print(21 / 6)       # => 3.5
+print(21 // 4)      # => 5
+print(15 % 2)       # => 1
+
+a += 5
+b *= 3
+
+#----------------------------------------------------------#
+
+# Challenge - 5
+
+# Consider the following Python expression:  a = 16 / 2 + 6 / 2 ** 2
+# Add parenthesis to change the order of operations so that a is 1.0
+
+a = (16 / (2 + 6) / 2) ** 2
+print(a)
+
+#----------------------------------------------------------#
+
+# Challenge - 6
+
+# An IPv6 address is represented using 128 bits.
+# Write a Python script that calculates how many IPv6 addresses are available.
+
+ipv6_no = 2 ** 128
+print('There are', ipv6_no, 'IPv6 available in the world!')
+
+#----------------------------------------------------------#
+
+# Challenge - 7
+
+# A company's revenue is 45,897,513.
+# Calculate the company's profit if the profit represents 12.7% of the revenue.
+# Display the profit using 2 decimal places.
+
+
+sales = 45_897_513
+profit = sales * 12.7 / 100
+print("Company's profit:",format(profit, '.2f')
+
+#----------------------------------------------------------#
+
+# Challenge - 8
+
+# A junior Python programmer writes the following code snippet and gets surprised that the comparison operator returns False instead of True.
+
+a = 0.1
+b = 0.3
+print(a * 3 == b) # => False
+Your job is to modify the code so that the comparison returns True which is correct.
+
+# Solution:
+
+import math
+a = 0.1
+b = 0.3
+# print(a * 3 == b)  # => False
+print(math.isclose(a*3, b)) # => True
+
+#----------------------------------------------------------#
+# Python Strings:
+
+# Challenge - 9
+
+
+
+

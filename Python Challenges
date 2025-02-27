@@ -254,6 +254,13 @@ print(f'{ft} ft = {cm:.2f} cm')  # 10 ft = 304.80 cm
 # Write a Python script that tests if a string is a palindrome.
 # https://en.wikipedia.org/wiki/Palindrome
 
+# A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward (ignoring spaces, punctuation, and capitalization).
+# Examples of palindromes:
+# - mom
+# - eve
+# - Dad
+# - 12321
+
 s1 = 'mom'
 print(f'Is s1 palindrome? => {s1 == s1[::-1]}')
 

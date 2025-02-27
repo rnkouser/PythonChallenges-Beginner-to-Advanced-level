@@ -127,7 +127,7 @@ b *= 3
 # Add parenthesis to change the order of operations so that a is 1.0
 
 a = (16 / (2 + 6) / 2) ** 2
-print(a)
+print(a)  # => 1.0
 
 #----------------------------------------------------------#
 
@@ -136,8 +136,8 @@ print(a)
 # An IPv6 address is represented using 128 bits.
 # Write a Python script that calculates how many IPv6 addresses are available.
 
-ipv6_no = 2 ** 128
-print('There are', ipv6_no, 'IPv6 available in the world!')
+ipv6_no = 2 ** 128    # 2 to the power of 128
+print('There are', ipv6_no, 'IPv6 available in the world!')  # There are 340282366920938463463374607431768211456 IPv6 available in the world!
 
 #----------------------------------------------------------#
 
@@ -150,7 +150,7 @@ print('There are', ipv6_no, 'IPv6 available in the world!')
 
 sales = 45_897_513
 profit = sales * 12.7 / 100
-print("Company's profit:",format(profit, '.2f')
+print("Company's profit:",format(profit, '.2f')   # => Company's profit: 5833580.51
 
 #----------------------------------------------------------#
 

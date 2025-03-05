@@ -790,6 +790,34 @@ words_and_length = [(w, len(w)) for w in words]
 print(words_and_length)
 
 #----------------------------------------------------------#
+# LISTS:
+
+#Create a list called my_list that stores 4 elements. 
+# The first element is a float, the second is an integer, 
+# the third is a string and the fourth is another list with 2 elements.
+
+# 1) Using list indexing create:
+
+# a variable called x that stores the second element of my_list 
+# a variable called y that stores the second element of the inner list
+# 2) Using list slicing create a list called z that contains the first two elements of my_list.
+
+# Solution:
+
+# list with 4 elements: a float, an integer, a string and another list
+my_list = [2.3, 5, 'Python', ['a', 2]]
+ 
+# the 2nd element of my_list
+x = my_list[1]
+ 
+# the 2nd element of the inner list
+y = my_list[3][1]
+ 
+# list slicing that returns a new list with the first 2 elements of my_list
+z = my_list[0:2]
+
+#----------------------------------------------------------#
+
 
 MORE CHALLENGES COMING SOON ON : 
 

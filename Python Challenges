@@ -840,6 +840,36 @@ url= 'www.python.org'
 ## Converting string to list
 url_list = url.split('.')
 #----------------------------------------------------------#
+# LIST METHODS
+
+#Consider the following list:animals = ['Cat', 'Dog']
+# 1.  Add an element at the end of the list. The new element will be the string 'Donkey'. animals will be ['Cat', 'Dog', 'Donkey']
+# 2. Add an element at position 2. This will be the 2nd element and store the string 'Horse' animals will be ['Cat', 'Horse', 'Dog', 'Donkey']
+# 3. Return the index of the element with the value 'Cat' in a variable called cat_index
+# 4. Create a string variable named str_animals from the list by joining the elements of the list using '-' as a delimiter.
+# str_animals will be 'Cat-Horse-Dog-Donkey'
+
+# Solution:
+
+animals = ['Cat', 'Dog']
+ 
+# Add an element at the end of the list. The new element stores the string 'Donkey'
+# animals will be ['Cat', 'Dog', 'Donkey']
+animals.append('Donkey')
+ 
+ 
+# Add an element at position 2. This will be the 2nd element and will store the string 'Horse'
+# animals will be ['Cat', 'Horse', 'Dog', 'Donkey']
+animals.insert(1, 'Horse')
+ 
+# Return the index of the element with value 'Cat'
+cat_index = animals.index('Cat')
+ 
+# Make a string variable named str_animals from the list by joining the elements of the list using '-' as a delimiter
+# str_animals will be 'Cat-Horse-Dog-Donkey'
+str_animals = '-'.join(animals)
+
+#----------------------------------------------------------#
 
 
 MORE CHALLENGES COMING SOON ON : 

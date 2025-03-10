@@ -817,6 +817,29 @@ y = my_list[3][1]
 z = my_list[0:2]
 
 #----------------------------------------------------------#
+# Converting Lists to Strings and Strings to Lists
+
+# Consider the following list and string:
+names_list = ['Alice', 'Bob', 'Eve']
+url= 'www.python.org'
+
+# 1. Your first task is to convert the list to a string called names_str by joining the elements of the list and using a comma(,) between them as a separator. names_str will be 'Alice,Bob,Eve'
+
+# 2. Your second task is to convert the string called url to a list called url_list by splitting the string into parts using the dot(.) as a delimiter. url_list will be ['www', 'python', 'org']
+
+# Solution:
+
+names_list = ['Alice', 'Bob', 'Eve']
+ 
+## Converting list to string
+names_str = ','.join(names_list)
+ 
+ 
+url= 'www.python.org'
+ 
+## Converting string to list
+url_list = url.split('.')
+#----------------------------------------------------------#
 
 
 MORE CHALLENGES COMING SOON ON : 
